@@ -12,9 +12,19 @@ public class FollowPlayer : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.F))
+        if (mode==1)
         {
-            Debug.Log(1);
+            transform.position = player.position;
+        }
+        else
+        {
+            transform.position = player.position + offset;
+            transform.rotation = Quaternion.Euler(0, 10, 0);
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
             if (mode == 1)
             {
                 mode = 2;
@@ -23,18 +33,7 @@ public class FollowPlayer : MonoBehaviour
             {
                 mode = 1;
             }
-          
-
         }
-        if (mode == 1)
-        {
-            transform.position = player.position;
-        }
-        if (mode == 2)
-        {
-            transform.position = player.position + offset;
-        }
-
     }
 
 }
