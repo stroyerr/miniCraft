@@ -14,9 +14,12 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+
+
+
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddForce(0, 0, force * Time.deltaTime, ForceMode.VelocityChange);
+            rb.AddForce(0,0, force * Time.deltaTime, ForceMode.VelocityChange);
         }
         
         if (Input.GetKey("d"))

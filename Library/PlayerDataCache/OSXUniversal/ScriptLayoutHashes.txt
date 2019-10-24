@@ -1,6 +1,6 @@
 OSXUniversal
 PlayerPath?
-/Users/angusoneill/miniCraft/releases/MiniCraft 0.1.0.app
+/Users/angusoneill/miniCraft/releases/MiniCraft 0.1.2.app
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
@@ -158,3 +158,7 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
+da4e0843304f60cd9b38ee0d78edef21 Assembly-CSharp.dll:.PlayerMovement
+a4ab9532686dbd13bc2c5bb58a3781ce Assembly-CSharp.dll:.MouseLook
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CursorVisibility
+b8af5b7c26bf2700cff4878d631b8dd5 Assembly-CSharp.dll:.Coordinates
