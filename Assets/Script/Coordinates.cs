@@ -17,7 +17,6 @@ public class Coordinates : MonoBehaviour
 
 
         pos = player.position.ToString();
-        Debug.Log(pos);
         c.text = pos;
     }
 }

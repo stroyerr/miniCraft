@@ -8,6 +8,7 @@ public class FollowPlayer : MonoBehaviour
     public Transform player;
     public int mode = 1;
     public Vector3 offset;
+    public GameObject target;
 
 
     void Update()
@@ -19,9 +20,12 @@ public class FollowPlayer : MonoBehaviour
         else
         {
             transform.position = player.position + offset;
-            transform.rotation = Quaternion.Euler(0, 10, 0);
-        }
+            //transform.rotation = Quaternion.Euler(0, 10, 0);
+         
 
+
+            transform.LookAt(target.transform);
+        }
 
         if (Input.GetKeyDown(KeyCode.F))
         {
